@@ -15,3 +15,21 @@ This is a fresh Laravel 10 application plus the following:
 5. Choose a repository visibility.
 
 [Click here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) for help if necessary.
+
+## What next?
+After you have cloned the project and opened it up in your editor make sure to:
+```bash
+composer install
+```
+
+```bash
+cp .env.example .env
+```
+
+```bash
+php artisan key:generate
+```
+
+```bash
+php artisan migrate
+```
